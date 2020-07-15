@@ -1,0 +1,25 @@
+.main{
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+    &__add__item{
+        border-radius: 3px;
+        background: #ffd924;
+        padding: 7px 10px;
+        width: fit-content;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 20px;
+        
+        &:hover{
+            background: #dda905;
+            cursor: pointer;
+        }
+    }
+    
+    &__form{
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,39 @@
+.recipe__item{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #b6b6b6;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+    &__title{
+        margin-bottom: 7px;
+        font-size: 26px;
+        font-weight: bold;
+        color: #a07f00;
+        
+        &:hover{
+            color: #d2b11f;
+        }
+    }
+    
+    &__content{
+        display: flex;
+        flex-direction: row;
+        
+        &__date{
+            font-style: italic;
+            font-weight: bold;
+            color: #838182;
+        }
+        
+        &__button{
+            margin-left: 12px;
+            color: #4c4a4b;
+            font-weight: bold;
+            
+            &:hover{
+                color: #d2b11f;
+            }
+        }
+    }
+}

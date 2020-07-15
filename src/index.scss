@@ -1,0 +1,21 @@
+body {
+    margin: 0 auto;
+    background: #edece9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.add__form{
+    &__row{
+        margin-bottom: 15px;
+    }
+}
